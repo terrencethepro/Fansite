@@ -1,9 +1,125 @@
 body{
     background-color:black;
+    width:100%;
+   
 }
+
+
+
+
 
 #banner{
-    height:10%;
-    width:10%;
+	width:550px;
+	border:solid;
+	color:white;
+	height:200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url("http://www.psnation.com/wp-content/uploads/2016/08/for-honor-banner-01.png");
+}
+
+#wrapper{
+	display:flex;
+	width:60%;
+	height:300px;
+	
+	border:10px;
+	color:white;
+	margin:auto;
+
+	
 
 }
+
+#nav{
+	display:flex;
+	justify-content:space-around;
+	margin:20px;
+	padding:10px;
+	white-space:nowrap;
+	text-align:center;
+	width:530px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	
+	
+	font-family:sans-serif;
+	color:white;
+	text-align:center;
+	
+
+}
+
+#nav a{
+	text-decoration:none;
+	color:white;
+
+}
+
+#nav a:hover{
+	color:gold;
+	border-top:2px solid white;
+
+}
+
+
+
+#main{
+	width:60%;
+	border:solid;
+	color:white;
+	background-color:black;
+	padding:10px;
+
+
+
+	
+}
+
+p{
+	color:white;
+	font-family:sans-serif;
+	text-align:center;
+	font-size:17px;
+}
+#side{
+	width:50%;
+	border:solid;
+	border-color:white;
+	color:black;
+	background-image:url("https://cdn.images.express.co.uk/img/dynamic/143/590x/For-Honor-Review-767996.jpg");
+
+
+
+
+	
+}
+
+#footer{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		font-family:sans-serif;
+		color:white;
+		font-size:15px;
+		text-transform:uppercase;
+		padding-top:10px;
+		text-align:center;
+}
+
+
+
+.imgLeft{
+	float:left;
+	margin-right:15;
+
+}
+
+.imgRight{
+	float:right;
+	margin-left:15;
+}
+
